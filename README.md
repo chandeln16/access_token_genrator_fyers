@@ -36,3 +36,35 @@ Before using this tool, ensure your app settings on [Fyers API Dashboard](https:
 1. Clone this repository:
    ```bash
    git clone [https://github.com/your-username/fyers-token-generator.git](https://github.com/your-username/fyers-token-generator.git)
+
+
+
+Open the folder in VS Code.
+
+    Right-click on accessToken.html and select "Open with Live Server".
+
+    Enter your Client ID, Secret Key, and the matching Redirect URI.
+
+    Click "Login with Fyers" and follow the prompts.
+
+🔒 Security Note
+
+    This tool does not send your API Secret or Client ID to any external server.
+
+    All processing happens locally in your browser.
+
+    Your credentials are saved in your browser's localStorage for convenience and never leave your machine.
+
+📈 Future Enhancements
+
+    [ ] Multi-broker support (Angel One, Zerodha).
+
+    [ ] Auto-expiry countdown for the generated token.
+
+    [ ] Integration with a local Python backend for automated daily startup.
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+Developed with ❤️ by [Narendra] Passionate about Financial Data Analytics & Web Automation.
