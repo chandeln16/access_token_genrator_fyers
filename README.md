@@ -37,34 +37,39 @@ Before using this tool, ensure your app settings on [Fyers API Dashboard](https:
    ```bash
    git clone [https://github.com/your-username/fyers-token-generator.git](https://github.com/your-username/fyers-token-generator.git)
 
+## 🛠️ Getting Started
+
+Follow these simple steps to run the tool on your local machine:
+
+1. **Open the Project:** Open the project folder in **VS Code**.
+2. **Launch Live Server:** Right-click on `accessToken.html` and select **"Open with Live Server"** (Ensure your port matches your Fyers Redirect URI).
+3. **Enter Details:** Input your `Client ID`, `Secret Key`, and the matching `Redirect URI` from your Fyers Dashboard.
+4. **Authorize:** Click the **"Login with Fyers"** button and follow the official Fyers login prompts.
+
+---
+
+## 🔒 Security & Privacy
+
+Security is a top priority when handling financial API credentials:
+
+* **Local Processing Only:** This tool **does not send** your API Secret or Client ID to any external server or database.
+* **Client-Side Execution:** All hashing and token exchange logic happens 100% locally within your browser.
+* **Safe Storage:** Your credentials are saved in your browser's `localStorage` for convenience (so you don't have to type them every day) and **never leave your machine**.
+
+---
 
 
-Open the folder in VS Code.
+## 🤝 Contributing
 
-    Right-click on accessToken.html and select "Open with Live Server".
+Contributions, issues, and feature requests are welcome! 
+If you have ideas to improve this tool, feel free to:
+1. Fork the project.
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
+3. Open a **Pull Request**.
 
-    Enter your Client ID, Secret Key, and the matching Redirect URI.
+Check out the [Issues Page](https://github.com/your-username/repo-name/issues) to report bugs.
 
-    Click "Login with Fyers" and follow the prompts.
+---
 
-🔒 Security Note
-
-    This tool does not send your API Secret or Client ID to any external server.
-
-    All processing happens locally in your browser.
-
-    Your credentials are saved in your browser's localStorage for convenience and never leave your machine.
-
-📈 Future Enhancements
-
-    [ ] Multi-broker support (Angel One, Zerodha).
-
-    [ ] Auto-expiry countdown for the generated token.
-
-    [ ] Integration with a local Python backend for automated daily startup.
-
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
-Developed with ❤️ by [Narendra] Passionate about Financial Data Analytics & Web Automation.
+### Developed with ❤️ by [Narendra]
+*Passionate about **Financial Data Analytics** & **Web Automation**.* 🚀
