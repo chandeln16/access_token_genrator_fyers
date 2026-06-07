@@ -59,6 +59,9 @@ Security is a top priority when handling financial API credentials:
 ---
 
 
+Direct link
+https://accesstokengenratorfyers-yqp7rcqjyu8phh5gaode43.streamlit.app/
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! 
