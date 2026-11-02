@@ -35,7 +35,7 @@ Before using this tool, ensure your app settings on [Fyers API Dashboard](https:
 ### 2. Running the Tool
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/chandeln16/fyers-token-generator.git](https://github.com/chandeln16/fyers-token-generator.git)
+   git clone [https://github.com/chandeln16/access_token_genrator_fyers](https://github.com/chandeln16/access_token_genrator_fyers)
 
 ## 🛠️ Getting Started
 
